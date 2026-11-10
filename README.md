@@ -48,10 +48,11 @@ Instalé y corrí el laboratorio en un workspace de Azure Databricks con serverl
 - Las pruebas locales de los controles y del entorno pasan.
 - El bundle del Lab 5, desplegado y corrido desde zsh: pasa con la ETL correcta, falla en `aceptacion` con otra fecha de corte y falla en `etl` con un `%` suelto en un `.conf`.
 - El 10 de noviembre, el setup con `instalar_v2 = si` desde una copia de `lab/`: instaló la constitución y las 4 skills v2 en mi usuario, y esa fue la v2 del experimento.
+- El 10 de noviembre, el Lab 0 completo desde un Git folder de este repositorio: el setup con todo en `si` terminó en 127 s, instaló la v2 en mi usuario y respaldó mis instrucciones y las 2 skills con el mismo nombre.
 
 Lo que todavía no probé:
 
-- Clonar este repositorio como Git folder. La prueba del participante usó una copia de `lab/` subida al workspace.
+- Clonar sin credenciales de Git: mi usuario tiene una credencial de GitHub configurada. La documentación dice que un repositorio público se clona sin ellas ([Git folders](https://learn.microsoft.com/en-us/azure/databricks/repos/repos-setup)).
 
 La comparación de v1 contra v2 está en [`resultados_experimento.md`](resultados_experimento.md). En el entorno sintético, v2 no mejoró el resultado: las dos variantes resolvieron casi lo mismo al primer intento, y v2 dejó más evidencia escrita por scripts y tardó más.
 

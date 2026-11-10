@@ -68,7 +68,7 @@ No cambies ningún archivo ni tabla. Responde tres cosas: 1) las skills que tien
 | Error al escribir en `/Users/<correo>/.assistant/...` | Falta el entitlement **Workspace access** | Paso 2 de los [prerrequisitos](prerrequisitos.md) |
 | Aparecen skills v1 y v2 con el mismo nombre | Siguen encendidas las de workspace | Apáguenlas en Settings y abran un chat nuevo |
 | El prompt muestra skills o instrucciones viejas | Genie Code carga los cambios al abrir un chat | Chat nuevo; si persiste, refresquen el navegador ([skills](https://learn.microsoft.com/en-us/azure/databricks/genie-code/skills)) |
-| Git folder no clona | La red bloquea github.com | Avísenme: les dejo el paquete para importarlo con **Import** |
+| Git folder no clona | El workspace restringe las URL de Git con una allowlist, o la red bloquea github.com | Si es la allowlist, el admin agrega la URL del repositorio ([Git folders](https://learn.microsoft.com/en-us/azure/databricks/repos/repos-setup)). Si es la red, avísenme: les dejo el paquete para importarlo con **Import** |
 
 ---
 

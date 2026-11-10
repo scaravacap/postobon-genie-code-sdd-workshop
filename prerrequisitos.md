@@ -36,7 +36,9 @@ Si sigue fallando, envíenme el texto exacto del error y lo resolvemos antes del
 
 ## 3. Acceso a GitHub desde Git folders
 
-El material vive en este repositorio público. En el workspace se clona con **Workspace > Create > Git folder**. Si su red bloquea github.com, avísenme y les llevo el paquete para importarlo con **Import**.
+El material vive en este repositorio público. En el workspace se clona con **Workspace > Create > Git folder**, y por ser público no hace falta configurar credenciales de Git ([Git folders](https://learn.microsoft.com/en-us/azure/databricks/repos/repos-setup)).
+
+Si el admin restringió las URL de Git con una allowlist, debe agregar `https://github.com/scaravacap/postobon-genie-code-sdd-workshop`. Si su red bloquea github.com, avísenme y les llevo el paquete para importarlo con **Import**.
 
 ## 4. Compute
 
